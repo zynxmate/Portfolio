@@ -1,0 +1,147 @@
+header:first-of-type {
+    background-color: #070F2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2 {
+    color: #9290C3;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header:nth-of-type(2) {
+    background-color: #9290C3;
+    padding: 1px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #1B1A55;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F3FA;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-box {
+    background-color: #E8E7F2;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.home-box:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px #9290C3;
+}
+
+.home-box h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: #070F2B;;
+}
+
+.home-box p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #070F2B;
+}
+
+.home-box a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: #070F2B;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.home-box a:hover {
+    background-color: #9290C3;
+    color: #070F2B;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #070F2B;
+    color: #9290C3;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#about {
+    min-height: 70vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.about-box {
+    background-color: #E8E7F2;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-box h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: #070F2B;
+}
+
+.about-box p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #070F2B;
+}
+
+.about-box:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px #9290C3;
+}
+
+.interests {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.interest-card {
+    padding: 20px;
+}
+
+.interest-card {
+    background-color: #E8E7F2;
+    padding: 25px;
+    border-radius: 15px;
+}
