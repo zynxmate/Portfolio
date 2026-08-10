@@ -8,7 +8,6 @@ header:first-of-type {
 header h2 {
     color: #9290C3;
     font-size: 50px;
-    font-family: 'Poppins', sans-serif;
 }
 
 header:nth-of-type(2) {
@@ -26,7 +25,6 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: white;;
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
 
@@ -60,19 +58,16 @@ body {
 }
 
 .home-box h1 {
-    font-family: 'Poppins', sans-serif;
     font-size: 45px;
     color: #070F2B;;
 }
 
 .home-box p {
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #070F2B;
 }
 
 .home-box a {
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     background-color: #070F2B;
     color: white;
@@ -95,7 +90,6 @@ footer {
     color: #9290C3;
     text-align: center;
     padding: 15px;
-    font-family: 'Poppins', sans-serif;
 }
 
 #about {
@@ -113,13 +107,11 @@ footer {
 }
 
 .about-box h1 {
-    font-family: 'Poppins', sans-serif;
     font-size: 45px;
     color: #070F2B;
 }
 
 .about-box p {
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 1.7;
     color: #070F2B;
@@ -188,7 +180,6 @@ footer {
     text-align: center;
     font-size: 45px;
     color: #070F2B;
-    font-family: 'Poppins', sans-serif;
 }
 
 .skills {
@@ -214,4 +205,31 @@ footer {
 
 main {
     padding-bottom: 20px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 50px;
+    color: #070F2B;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: 25px;
+    color: #070F2B;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.contact-links a {
+    background-color: #9290C3;
+    color: #070F2B;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
 }
