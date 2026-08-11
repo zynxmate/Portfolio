@@ -233,3 +233,23 @@ main {
     text-decoration: none;
     border-radius: 10px;
 }
+
+.gallery-title {
+    text-align: center;
+    font-size: 50px;
+    color: #070F2B;
+}
+
+.gallery {
+    columns: 3;
+    column-gap: 15px;
+    width: calc(100% - 30px);
+    margin: 40px auto 50px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
