@@ -234,6 +234,11 @@ main {
     border-radius: 10px;
 }
 
+.contact-links a:hover {
+    background-color: #030305;
+    color: #fefeff;
+}
+
 .gallery-title {
     text-align: center;
     font-size: 50px;
