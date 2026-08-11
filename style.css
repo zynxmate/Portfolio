@@ -259,3 +259,14 @@ main {
     display: block;
     margin-bottom: 15px;
 }
+
+@media (max-width: 600px) {
+    .gallery {
+        columns: 1;
+        width: calc(100% - 20px);
+    }
+
+    .gallery-title {
+        font-size: 35px;
+    }
+}
