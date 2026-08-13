@@ -260,6 +260,11 @@ main {
     margin-bottom: 15px;
 }
 
+a:focus {
+    outline: 3px solid #070F2B;
+    outline-offset: 3px;
+}
+
 @media (max-width: 600px) {
     .gallery {
         columns: 1;
